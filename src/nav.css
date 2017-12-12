@@ -1,0 +1,111 @@
+/* Main Nav Style Sheet */
+.main-nav {
+  display: flex;
+  position: relative;
+  height: 44px;
+  font-weight: bold;
+}
+.main-nav ul.nav-items {
+  display: flex;
+  color: #f00;
+  position: absolute;
+  right: 420px;
+  list-style: none;
+  top: 11px;
+}
+.main-nav ul.nav-items li {
+  font-size: 16px;
+  color: #b5b5b5;
+  letter-spacing: -0.37px;
+  margin-right: 28px;
+}
+.main-nav ul.nav-items li:last-child {
+  margin-right: 0px;
+}
+.main-nav ul.nav-ctas {
+  display: flex;
+  color: #00f;
+  position: absolute;
+  right: 0px;
+}
+.main-nav ul.nav-ctas li {
+  margin-left: 20px;
+}
+.main-nav ul.nav-ctas li button {
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 15px;
+  color: #0079d9;
+  letter-spacing: -0.35px;
+  padding: 12px 18px;
+  border: solid #dadae8 1px;
+  font-weight: bold;
+}
+.main-nav ul.nav-ctas li .hire-btn {
+  background-color: #00ba66;
+  color: #fff;
+  border: solid 1px #00ba66;
+}
+.main-nav,
+ul.nav-ctas {
+  list-style: none;
+}
+.logo {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+.vertical-line-sep {
+  background-color: #dfdfe0;
+  height: 80%;
+  width: 1px;
+  display: block;
+  position: absolute;
+  right: 400px;
+  top: 4px;
+}
+/* Secondary Nav Style Sheet */
+.secondary-nav {
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+  position: relative;
+  padding: 0px 0px 20px 0px;
+}
+.secondary-nav .phone {
+  color: #abacae;
+  position: absolute;
+  left: 0px;
+}
+.secondary-nav .phone a {
+  color: #007bdd;
+}
+.secondary-nav .phone span {
+  color: #abacae;
+}
+.secondary-nav .contact-us {
+  position: absolute;
+  right: 120px;
+  color: #abacae;
+}
+.secondary-nav .contact-us a {
+  color: #007bdd;
+  font-weight: bold;
+}
+.secondary-nav li.contact-us,
+.secondary-nav li.phone {
+  font-size: 14px;
+}
+.secondary-nav ul.social {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  list-style: none;
+}
+.secondary-nav ul.social li {
+  margin-left: 20px;
+  position: relative;
+}
+.secondary-nav ul.social li img {
+  margin-left: 2px;
+}

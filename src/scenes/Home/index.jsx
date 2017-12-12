@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import HomeBanner from '../../components/HomeBanner/index'
 
 class Homepage extends Component {
   render() {
     return(
-      <h1></h1>
+      <HomeBanner/>
     )
   }
 }

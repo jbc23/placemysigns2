@@ -13,7 +13,7 @@ class MainNav extends Component {
         </ul>
         <div className="vertical-line-sep"></div>
         <ul className="nav-ctas">
-          <li><button>Schdule Sign Placment</button></li>
+          <li><button>Schedule Sign Placment</button></li>
           <li><button className="hire-btn">Hire Sign Placers</button></li>
         </ul>
       </ul>

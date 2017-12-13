@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class Button extends Component {
   render() {
     return(
-     <div>
-        <button>Schedule Sign Placment</button>
-        <button>helloedjieojdeoido</button>
+     <div className="btn-container">
+        <button className="main-cta">Schedule Sign Placment</button>
+        <button className="secondary-cta">Hire Sign Placers</button>
      </div>
 
     )

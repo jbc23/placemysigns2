@@ -8,7 +8,7 @@ class SecondaryNavbar extends Component {
     return(
       <ul className="secondary-nav">
         <li className="phone"><span>C:</span> 415-941-3005</li>
-        <li className="contact-us">Questions?<a href=""> Contact Us</a></li>
+        <li className="contact-us">Questions? <a href="">Contact Us</a></li>
         <ul className="social">
           <li className="icon"><img src={FacebookIcon}/></li>
           <li className="icon"><img src={InstaIcon}/></li>

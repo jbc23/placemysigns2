@@ -1,3 +1,11 @@
+body {
+  font-family: HelveticaNeue;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
 .container-full-width {
   width: 100%;
   border-bottom: solid #e5e5e6 1px;
@@ -6,6 +14,27 @@
   margin: 0 auto;
   max-width: 1040px;
 }
-body {
-  font-family: HelveticaNeue;
+/* Typography */
+h1,
+p {
+  color: #fff;
+}
+h1 {
+  font-size: 48px;
+  letter-spacing: -0.48px;
+}
+h2 {
+  font-size: 34px;
+  color: #373737;
+  letter-spacing: -1.42px;
+}
+h3 {
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 18px;
+}
+p {
+  font-size: 18px;
+  letter-spacing: -0.23px;
+  line-height: 18px;
 }

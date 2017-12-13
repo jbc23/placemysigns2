@@ -1,4 +1,54 @@
 /* Hero Style */
+.blue-bg {
+  background-color: #0079d9;
+  max-height: 532px;
+}
+/* Typography */
 h1 {
   text-align: center;
+  padding-top: 55px;
+  margin: 0px;
+}
+h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 54px;
+}
+p {
+  text-align: center;
+  color: #cfe3f6;
+}
+/* PMS Professionals */
+ul.pms-pro-container {
+  list-style: none;
+  display: flex;
+  overflow: hidden;
+}
+ul.pms-pro-container li {
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.23);
+  border-radius: 8px;
+  margin: 12px 0px 0px 18px;
+}
+ul.pms-pro-container li:first-child {
+  margin: 12px 0px 0px 0px;
+}
+ul.pms-pro-container li img {
+  border-radius: 8px 8px 0px 0px;
+}
+ul.pms-pro-container li h4,
+ul.pms-pro-container li h5 {
+  font-size: 16px;
+  color: #555;
+  letter-spacing: -0.2px;
+  line-height: 18px;
+  margin: 0px 0px 0px 20px;
+}
+ul.pms-pro-container li h4 {
+  font-weight: bold;
+  margin-top: 15px;
+}
+ul.pms-pro-container li h5 {
+  font-weight: normal;
+  margin-bottom: 15px;
 }

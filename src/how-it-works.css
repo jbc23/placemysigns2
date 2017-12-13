@@ -1,0 +1,41 @@
+/* How It Works Styles */
+.how-it-works-container {
+  padding-top: 100px;
+}
+h2 {
+  text-align: center;
+}
+ul.steps-container {
+  display: flex;
+  list-style: none;
+}
+ul.steps-container li {
+  width: 33.3333%;
+}
+ul.steps-container li div {
+  background-color: #f00;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+ul.steps-container li h4 {
+  font-size: 21px;
+  color: #555;
+  letter-spacing: -0.88px;
+  line-height: 22px;
+}
+ul.steps-container li h4:before {
+  content: '1';
+  background-color: #007bdd;
+  color: #fff;
+  padding: 16px 22px;
+  border-radius: 50px;
+  margin: -6px 8px 0px 0px;
+  float: left;
+}
+ul.steps-container li .two:before {
+  content: '2';
+}
+ul.steps-container li .three:before {
+  content: '3';
+}

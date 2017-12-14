@@ -48,7 +48,7 @@ class Cities extends Component {
           <li>Mesa,</li>
           <li>Atlanta,</li>
           <li>Virginia Beach</li>
-          </ul>
+        </ul>
         <ul>
           <li>Omaha,</li>
           <li>Colorado Springs,</li>

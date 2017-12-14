@@ -19,6 +19,7 @@ ul.steps-container li div {
   border-radius: 8px;
 }
 ul.steps-container li h4 {
+  margin-top: 16px;
   font-size: 21px;
   color: #555;
   letter-spacing: -0.88px;

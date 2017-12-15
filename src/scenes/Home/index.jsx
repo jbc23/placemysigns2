@@ -5,6 +5,8 @@ import CompaniesTrustedBy from '../../components/TrustedByCompanies/index'
 import ServicingCities from '../../components/ServicingCities/index'
 import BottomCta from '../../components/BottomCta/index'
 import Footer from '../../components/Footer/index'
+import ClientQuotes from '../../components/Testimonials/index'
+
 class Homepage extends Component {
   render() {
     return(
@@ -12,6 +14,7 @@ class Homepage extends Component {
         <HomeBanner/>
         <HowItWorks/>
         <CompaniesTrustedBy />
+        <ClientQuotes/>
         <ServicingCities/>
         <BottomCta/>
         <Footer/>

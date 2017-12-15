@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return(
       <div className="container-lg">
-      <Logo/>
+
         <p>Call 24/7 415-941-3005</p>
         <p>© Placemysigns</p>
         <div>
